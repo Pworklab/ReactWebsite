@@ -1,0 +1,43 @@
+
+// 【useParams】 from react-router-dom
+/*
+useParams is a hook provided by react-router-dom 
+that allows you to access URL parameters in functional components. 
+URL parameters are dynamic segments in the URL path 
+that are denoted by a colon followed by a parameter name.
+
+---
+So, if the URL for this component is 
+/users/123, id will be '123', 
+and the component will render "User ID: 123".
+
+*/
+
+// グローバルコンテンツのアクセスへの簡単か 可視化しやすくなる。
+// 【PAYLOAD】
+/*
+In the context of an API
+a payload refers to the data that is sent 
+in a request or received in the response.
+It is the essential content of the message 
+being transmitted between a client
+and a server
+*/
+
+//【What is Rem??】
+/*
+he value of 1 rem (root em) is relative 
+to the font size of the root element of the document
+So, if the font size of the root element is 16 pixels, 
+then 1 rem is equal to 16 pixels.
+*/
+
+//【Route】
+/*
+Route components can be nested
+ and can have dynamic parameters 
+ in their paths. They're a core part
+  of building single-page applications (SPAs)
+   with React, allowing you to create a navigation 
+   system that updates the UI based on the URL.
+*/

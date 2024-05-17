@@ -1,0 +1,93 @@
+.anime-details {
+    padding: 3rem 18rem;
+    background-color: #EDEDED;
+    display: flex; /* Add display flex to align items */
+    justify-content: center; /* Center align content horizontally */
+}
+.anime-details h1 {
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #000000, #1d1d1d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .4s ease-in-out;
+}
+.anime-details .title {
+    display: inline-block;
+    margin: rem 0;
+    font-size: 2rem;
+    cursor: pointer;
+    background: linear-gradient(to right, #000000 23%, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.anime-details .description {
+    margin-top: 2rem;
+    color: #6c7983;
+    line-height: 1.7rem;
+    width: 100%; /* Set width for the description */
+    padding-left: 0rem; /* Add padding to the left */
+}
+.anime-details .description button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 600;
+}
+.anime-details .details {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+    border: 5px solid #e5e7eb;
+}
+.anime-details .details .anime-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.anime-details .details .anime-details p {
+    display: flex;
+    gap: 1rem;
+}
+.anime-details .details .anime-details p span:first-child {
+    font-weight: 600;
+    color: #454e56;
+}
+.anime-details .characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    border: 5px solid #e5e7eb;
+}
+.anime-details .characters .character {
+    padding: .4rem .6rem;
+    border-radius: 7px;
+    background-color: #EDEDED;
+    transition: all .4s ease-in-out;
+}
+.anime-details .characters .character img {
+    width: 100%;
+}
+.anime-details .characters .character h4 {
+    padding: .5rem 0;
+    color: #454e56;
+}
+.anime-details .characters .character p {
+    color: #000000;
+}
+.anime-details .characters .character:hover {
+    transform: translateY(-5px);
+}
+
+.details-left {
+    flex: 1; /* Takes up remaining space */
+}
+
